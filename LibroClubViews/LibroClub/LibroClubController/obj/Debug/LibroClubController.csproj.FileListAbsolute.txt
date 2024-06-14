@@ -1,0 +1,70 @@
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\bin\Debug\LibroClubController.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\bin\Debug\LibroClubController.pdb
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\bin\Debug\LibroClubModels.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\bin\Debug\MySql.Data.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\bin\Debug\System.Memory.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\bin\Debug\System.Buffers.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\bin\Debug\LibroClubModels.pdb
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\obj\Debug\LibroClubController.csproj.AssemblyReference.cache
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\obj\Debug\LibroClubController.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\obj\Debug\LibroClu.F946E9EA.Up2Date
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\obj\Debug\LibroClubController.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\TestController\obj\Debug\LibroClubController.pdb
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\obj\Debug\LibroClubController.csproj.AssemblyReference.cache
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\obj\Debug\LibroClubController.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\obj\Debug\LibroClubController.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\obj\Debug\LibroClubController.pdb
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\bin\Debug\LibroClubController.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\bin\Debug\LibroClubController.pdb
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\bin\Debug\LibroClubModels.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\bin\Debug\MySql.Data.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\bin\Debug\System.Memory.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\bin\Debug\System.Buffers.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\bin\Debug\LibroClubModels.pdb
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms - copia\LibroClubController\obj\Debug\LibroClu.F946E9EA.Up2Date
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\bin\Debug\LibroClubController.dll
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\bin\Debug\LibroClubController.pdb
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\bin\Debug\LibroClubModels.dll
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\bin\Debug\MySql.Data.dll
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\bin\Debug\System.Memory.dll
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\bin\Debug\System.Buffers.dll
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\bin\Debug\LibroClubModels.pdb
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\obj\Debug\LibroClubController.csproj.AssemblyReference.cache
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\obj\Debug\LibroClubController.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\obj\Debug\LibroClubController.csproj.CopyComplete
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\obj\Debug\LibroClubController.dll
+C:\Users\Sergio\Desktop\LibroClub\LibroClubController\obj\Debug\LibroClubController.pdb
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\bin\Debug\LibroClubController.dll
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\bin\Debug\LibroClubController.pdb
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\bin\Debug\LibroClubModels.dll
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\bin\Debug\MySql.Data.dll
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\bin\Debug\System.Memory.dll
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\bin\Debug\System.Buffers.dll
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\bin\Debug\LibroClubModels.pdb
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\obj\Debug\LibroClubController.csproj.AssemblyReference.cache
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\obj\Debug\LibroClubController.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\obj\Debug\LibroClu.F946E9EA.Up2Date
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\obj\Debug\LibroClubController.dll
+C:\Users\Bruno Monzén Sullón\Desktop\LibroClubViews\LibroClub\LibroClubController\obj\Debug\LibroClubController.pdb
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\bin\Debug\LibroClubController.dll
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\bin\Debug\LibroClubController.pdb
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\bin\Debug\LibroClubModels.dll
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\bin\Debug\MySql.Data.dll
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\bin\Debug\System.Memory.dll
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\bin\Debug\System.Numerics.Vectors.dll
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\bin\Debug\System.Buffers.dll
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\bin\Debug\LibroClubModels.pdb
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\obj\Debug\LibroClubController.csproj.AssemblyReference.cache
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\obj\Debug\LibroClubController.csproj.CoreCompileInputs.cache
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\obj\Debug\LibroClu.F946E9EA.Up2Date
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\obj\Debug\LibroClubController.dll
+C:\LibroClubSoftWS_6.0\LibroClubViews\LibroClub\LibroClubController\obj\Debug\LibroClubController.pdb

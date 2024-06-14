@@ -1,0 +1,817 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\VentasForm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\VentasForm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\VentasForm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\VentasForm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Ventas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Ventas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Ventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Ventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|c:\\users\\danie\\downloads\\libroclubsoftws_6.0\\libroclubviews\\libroclub\\librosoftweb\\views\\personal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:librosoftweb\\views\\personal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\PersonalForm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Personal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Personal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Main.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\librosoftweb\\scripts\\master.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:librosoftweb\\scripts\\master.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Scripts\\Usuarios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Scripts\\Usuarios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\librosoftweb\\views\\chart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:librosoftweb\\views\\chart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\librosoftweb\\views\\chart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:librosoftweb\\views\\chart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Main.Master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\librosoftweb\\views\\usuariosform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:librosoftweb\\views\\usuariosform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\ChartPersonal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\librosoftweb\\scripts\\ventas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:librosoftweb\\scripts\\ventas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Ventas.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Ventas.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\RevistaForm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\RevistaForm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Perfil.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Perfil.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Sedes.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Sedes.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Perfil.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Perfil.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Perfil.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Perfil.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\PersonalForm.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Sedes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Sedes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\RevistaForm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\RevistaForm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\PersonalForm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Articulos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Articulos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Sedes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\Sedes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Scripts\\Sedes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Scripts\\Sedes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\UsuariosForm.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Public\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Public\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Main.Master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}|LibroSoftWeb\\LibroClubWeb.csproj|solutionrelative:LibroSoftWeb\\Views\\UsuariosForm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 216,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Main.Master",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Main.Master",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master",
+              "RelativeToolTip": "LibroSoftWeb\\Main.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-29T13:30:41.444Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Usuarios.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Usuarios.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Usuarios.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Usuarios.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Usuarios.aspx.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAwwJcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T01:11:26.845Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Personal.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Personal.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Personal.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Personal.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Personal.aspx.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAzwKwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T20:03:49.321Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Personal.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Personal.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Personal.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Personal.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Personal.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-30T18:44:51.246Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Login.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Login.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Login.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-28T19:33:00.569Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Usuarios.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Usuarios.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Usuarios.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Usuarios.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Usuarios.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-06T16:47:46.681Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PersonalForm.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\PersonalForm.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\PersonalForm.aspx.cs",
+              "ViewState": "AQIAAMgAAAAAAAAAAIBJwNkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:43:44.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ventas.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Ventas.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Ventas.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Ventas.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Ventas.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-08T21:44:01.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ventas.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Ventas.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Ventas.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Ventas.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Ventas.aspx.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAkwKEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:46:13.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VentasForm.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\VentasForm.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\VentasForm.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\VentasForm.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\VentasForm.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-08T21:49:58.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VentasForm.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\VentasForm.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\VentasForm.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\VentasForm.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\VentasForm.aspx.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAiwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:52:26.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Web.config",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Web.config",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Web.config",
+              "RelativeToolTip": "LibroSoftWeb\\Web.config",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-02T23:12:22.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Login.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Login.aspx.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwEMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T04:57:10.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuariosForm.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx.cs",
+              "ToolTip": "C:\\Users\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T20:56:44.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Main.Master",
+              "DocumentMoniker": "C:\\Users\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master",
+              "ToolTip": "C:\\Users\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-11T21:03:45.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Master.js",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Scripts\\Master.js",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Scripts\\Master.js",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Scripts\\Master.js",
+              "RelativeToolTip": "LibroSoftWeb\\Scripts\\Master.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-11T22:55:33.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PersonalForm.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx.cs",
+              "ToolTip": "C:\\Users\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T20:53:05.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Chart.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Chart.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Chart.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Chart.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Chart.aspx.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowC4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T20:48:21.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChartPersonal.aspx",
+              "DocumentMoniker": "C:\\Users\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\ChartPersonal.aspx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\ChartPersonal.aspx",
+              "ToolTip": "C:\\Users\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\ChartPersonal.aspx",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Bruno Monz\u00E9n Sull\u00F3n\\Desktop\\LibroClubSoftWS\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\ChartPersonal.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-11T20:48:06.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Chart.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Chart.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Chart.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Chart.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Chart.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-11T20:47:24.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Ventas.js",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Scripts\\Ventas.js",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Scripts\\Ventas.js",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Scripts\\Ventas.js",
+              "RelativeToolTip": "LibroSoftWeb\\Scripts\\Ventas.js",
+              "ViewState": "AQIAAAUAAAAAAAAAAABQwAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-09T01:06:31.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Ventas.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Ventas.aspx.designer.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Ventas.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Ventas.aspx.designer.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Ventas.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T01:05:57.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RevistaForm.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\RevistaForm.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\RevistaForm.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\RevistaForm.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\RevistaForm.aspx.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T20:48:19.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Perfil.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Perfil.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Perfil.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Perfil.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Perfil.aspx.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T20:38:19.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Usuarios.js",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Scripts\\Usuarios.js",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Scripts\\Usuarios.js",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Scripts\\Usuarios.js",
+              "RelativeToolTip": "LibroSoftWeb\\Scripts\\Usuarios.js",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-30T18:31:33.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Sedes.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Sedes.aspx.designer.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Sedes.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Sedes.aspx.designer.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Sedes.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:13:52.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UsuariosForm.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\UsuariosForm.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\UsuariosForm.aspx.cs",
+              "ViewState": "AQIAAPUAAAAAAAAAAAAgwBUBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T17:58:51.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Perfil.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Perfil.aspx.designer.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Perfil.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Perfil.aspx.designer.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Perfil.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T21:56:22.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Perfil.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Perfil.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Perfil.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Perfil.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Perfil.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-01T21:23:19.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PersonalForm.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx.designer.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\PersonalForm.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx.designer.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\PersonalForm.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T23:08:24.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Sedes.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Sedes.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Sedes.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Sedes.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Sedes.aspx.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwB4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:26:53.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RevistaForm.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\RevistaForm.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\RevistaForm.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\RevistaForm.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\RevistaForm.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-31T22:36:19.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PersonalForm.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\PersonalForm.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\PersonalForm.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\PersonalForm.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-31T22:36:02.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Articulos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Articulos.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Articulos.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Articulos.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Articulos.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T20:07:53.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Sedes.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Sedes.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\Sedes.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\Sedes.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\Sedes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-30T18:37:11.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Sedes.js",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Scripts\\Sedes.js",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Scripts\\Sedes.js",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Scripts\\Sedes.js",
+              "RelativeToolTip": "LibroSoftWeb\\Scripts\\Sedes.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-30T18:36:24.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UsuariosForm.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx.designer.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\UsuariosForm.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx.designer.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\UsuariosForm.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:22:36.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Public\\css\\site.css",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Public\\css\\site.css",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Public\\css\\site.css",
+              "RelativeToolTip": "LibroSoftWeb\\Public\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-29T21:03:25.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Home.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Home.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Home.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-29T17:15:58.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Main.Master.designer.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master.designer.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Main.Master.designer.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master.designer.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Main.Master.designer.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:59:32.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\packages.config",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\packages.config",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\packages.config",
+              "RelativeToolTip": "LibroSoftWeb\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-29T13:51:34.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Login.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Login.aspx.designer.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Login.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Login.aspx.designer.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Login.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:07:41.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Signin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Signin.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Signin.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Signin.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Signin.aspx.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:04:34.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Signin.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Signin.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Signin.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Signin.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Signin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-29T05:00:03.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Home.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Home.aspx.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Home.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Home.aspx.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Home.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T04:56:45.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UsuariosForm.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Views\\UsuariosForm.aspx",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Views\\UsuariosForm.aspx",
+              "RelativeToolTip": "LibroSoftWeb\\Views\\UsuariosForm.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-29T04:54:39.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Main.Master.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master.cs",
+              "RelativeDocumentMoniker": "LibroSoftWeb\\Main.Master.cs",
+              "ToolTip": "C:\\Users\\danie\\Downloads\\LibroClubSoftWS_6.0\\LibroClubViews\\LibroClub\\LibroSoftWeb\\Main.Master.cs",
+              "RelativeToolTip": "LibroSoftWeb\\Main.Master.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:34:57.888Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

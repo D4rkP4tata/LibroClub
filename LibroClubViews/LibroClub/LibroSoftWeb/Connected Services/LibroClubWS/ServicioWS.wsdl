@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://services.LibroClubSoft.pucp.edu.pe/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="ServicioWS" targetNamespace="http://services.LibroClubSoft.pucp.edu.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/LibroClubWS/ServicioWS?xsd=1" namespace="http://services.LibroClubSoft.pucp.edu.pe/" />
+    </xsd:schema>
+  </types>
+  <message name="modificarPersonal">
+    <part name="parameters" element="tns:modificarPersonal" />
+  </message>
+  <message name="modificarPersonalResponse">
+    <part name="parameters" element="tns:modificarPersonalResponse" />
+  </message>
+  <message name="ObtenerPersonalID">
+    <part name="parameters" element="tns:ObtenerPersonalID" />
+  </message>
+  <message name="ObtenerPersonalIDResponse">
+    <part name="parameters" element="tns:ObtenerPersonalIDResponse" />
+  </message>
+  <message name="ObtenerPersonalDNI">
+    <part name="parameters" element="tns:ObtenerPersonalDNI" />
+  </message>
+  <message name="ObtenerPersonalDNIResponse">
+    <part name="parameters" element="tns:ObtenerPersonalDNIResponse" />
+  </message>
+  <message name="listarPersonalSede">
+    <part name="parameters" element="tns:listarPersonalSede" />
+  </message>
+  <message name="listarPersonalSedeResponse">
+    <part name="parameters" element="tns:listarPersonalSedeResponse" />
+  </message>
+  <message name="listarSede">
+    <part name="parameters" element="tns:listarSede" />
+  </message>
+  <message name="listarSedeResponse">
+    <part name="parameters" element="tns:listarSedeResponse" />
+  </message>
+  <message name="insertarUsuario">
+    <part name="parameters" element="tns:insertarUsuario" />
+  </message>
+  <message name="insertarUsuarioResponse">
+    <part name="parameters" element="tns:insertarUsuarioResponse" />
+  </message>
+  <message name="listarUsuario">
+    <part name="parameters" element="tns:listarUsuario" />
+  </message>
+  <message name="listarUsuarioResponse">
+    <part name="parameters" element="tns:listarUsuarioResponse" />
+  </message>
+  <message name="listarPersonalDni_Sede">
+    <part name="parameters" element="tns:listarPersonalDni_Sede" />
+  </message>
+  <message name="listarPersonalDni_SedeResponse">
+    <part name="parameters" element="tns:listarPersonalDni_SedeResponse" />
+  </message>
+  <message name="listarUsuarioMembresia">
+    <part name="parameters" element="tns:listarUsuarioMembresia" />
+  </message>
+  <message name="listarUsuarioMembresiaResponse">
+    <part name="parameters" element="tns:listarUsuarioMembresiaResponse" />
+  </message>
+  <message name="eliminarUsuario">
+    <part name="parameters" element="tns:eliminarUsuario" />
+  </message>
+  <message name="eliminarUsuarioResponse">
+    <part name="parameters" element="tns:eliminarUsuarioResponse" />
+  </message>
+  <message name="modificarUsuario">
+    <part name="parameters" element="tns:modificarUsuario" />
+  </message>
+  <message name="modificarUsuarioResponse">
+    <part name="parameters" element="tns:modificarUsuarioResponse" />
+  </message>
+  <message name="ObtenerUsuarioDni">
+    <part name="parameters" element="tns:ObtenerUsuarioDni" />
+  </message>
+  <message name="ObtenerUsuarioDniResponse">
+    <part name="parameters" element="tns:ObtenerUsuarioDniResponse" />
+  </message>
+  <message name="listarPersonal">
+    <part name="parameters" element="tns:listarPersonal" />
+  </message>
+  <message name="listarPersonalResponse">
+    <part name="parameters" element="tns:listarPersonalResponse" />
+  </message>
+  <message name="insertarPersonal">
+    <part name="parameters" element="tns:insertarPersonal" />
+  </message>
+  <message name="insertarPersonalResponse">
+    <part name="parameters" element="tns:insertarPersonalResponse" />
+  </message>
+  <message name="listarGerente">
+    <part name="parameters" element="tns:listarGerente" />
+  </message>
+  <message name="listarGerenteResponse">
+    <part name="parameters" element="tns:listarGerenteResponse" />
+  </message>
+  <message name="eliminarPersonal">
+    <part name="parameters" element="tns:eliminarPersonal" />
+  </message>
+  <message name="eliminarPersonalResponse">
+    <part name="parameters" element="tns:eliminarPersonalResponse" />
+  </message>
+  <message name="obtenerGerenteID">
+    <part name="parameters" element="tns:obtenerGerenteID" />
+  </message>
+  <message name="obtenerGerenteIDResponse">
+    <part name="parameters" element="tns:obtenerGerenteIDResponse" />
+  </message>
+  <message name="insertarGerente">
+    <part name="parameters" element="tns:insertarGerente" />
+  </message>
+  <message name="insertarGerenteResponse">
+    <part name="parameters" element="tns:insertarGerenteResponse" />
+  </message>
+  <portType name="ServicioWS">
+    <operation name="modificarPersonal">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/modificarPersonalRequest" message="tns:modificarPersonal" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/modificarPersonalResponse" message="tns:modificarPersonalResponse" />
+    </operation>
+    <operation name="ObtenerPersonalID">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/ObtenerPersonalIDRequest" message="tns:ObtenerPersonalID" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/ObtenerPersonalIDResponse" message="tns:ObtenerPersonalIDResponse" />
+    </operation>
+    <operation name="ObtenerPersonalDNI">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/ObtenerPersonalDNIRequest" message="tns:ObtenerPersonalDNI" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/ObtenerPersonalDNIResponse" message="tns:ObtenerPersonalDNIResponse" />
+    </operation>
+    <operation name="listarPersonalSede">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarPersonalSedeRequest" message="tns:listarPersonalSede" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarPersonalSedeResponse" message="tns:listarPersonalSedeResponse" />
+    </operation>
+    <operation name="listarSede">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarSedeRequest" message="tns:listarSede" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarSedeResponse" message="tns:listarSedeResponse" />
+    </operation>
+    <operation name="insertarUsuario">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/insertarUsuarioRequest" message="tns:insertarUsuario" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/insertarUsuarioResponse" message="tns:insertarUsuarioResponse" />
+    </operation>
+    <operation name="listarUsuario">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarUsuarioRequest" message="tns:listarUsuario" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarUsuarioResponse" message="tns:listarUsuarioResponse" />
+    </operation>
+    <operation name="listarPersonalDni_Sede">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarPersonalDni_SedeRequest" message="tns:listarPersonalDni_Sede" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarPersonalDni_SedeResponse" message="tns:listarPersonalDni_SedeResponse" />
+    </operation>
+    <operation name="listarUsuarioMembresia">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarUsuarioMembresiaRequest" message="tns:listarUsuarioMembresia" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarUsuarioMembresiaResponse" message="tns:listarUsuarioMembresiaResponse" />
+    </operation>
+    <operation name="eliminarUsuario">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/eliminarUsuarioRequest" message="tns:eliminarUsuario" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/eliminarUsuarioResponse" message="tns:eliminarUsuarioResponse" />
+    </operation>
+    <operation name="modificarUsuario">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/modificarUsuarioRequest" message="tns:modificarUsuario" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/modificarUsuarioResponse" message="tns:modificarUsuarioResponse" />
+    </operation>
+    <operation name="ObtenerUsuarioDni">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/ObtenerUsuarioDniRequest" message="tns:ObtenerUsuarioDni" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/ObtenerUsuarioDniResponse" message="tns:ObtenerUsuarioDniResponse" />
+    </operation>
+    <operation name="listarPersonal">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarPersonalRequest" message="tns:listarPersonal" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarPersonalResponse" message="tns:listarPersonalResponse" />
+    </operation>
+    <operation name="insertarPersonal">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/insertarPersonalRequest" message="tns:insertarPersonal" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/insertarPersonalResponse" message="tns:insertarPersonalResponse" />
+    </operation>
+    <operation name="listarGerente">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarGerenteRequest" message="tns:listarGerente" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/listarGerenteResponse" message="tns:listarGerenteResponse" />
+    </operation>
+    <operation name="eliminarPersonal">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/eliminarPersonalRequest" message="tns:eliminarPersonal" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/eliminarPersonalResponse" message="tns:eliminarPersonalResponse" />
+    </operation>
+    <operation name="obtenerGerenteID">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/obtenerGerenteIDRequest" message="tns:obtenerGerenteID" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/obtenerGerenteIDResponse" message="tns:obtenerGerenteIDResponse" />
+    </operation>
+    <operation name="insertarGerente">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/insertarGerenteRequest" message="tns:insertarGerente" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ServicioWS/insertarGerenteResponse" message="tns:insertarGerenteResponse" />
+    </operation>
+  </portType>
+  <binding name="ServicioWSPortBinding" type="tns:ServicioWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="modificarPersonal">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ObtenerPersonalID">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ObtenerPersonalDNI">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarPersonalSede">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarSede">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarUsuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarUsuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarPersonalDni_Sede">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarUsuarioMembresia">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="eliminarUsuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="modificarUsuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ObtenerUsuarioDni">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarPersonal">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarPersonal">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarGerente">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="eliminarPersonal">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="obtenerGerenteID">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarGerente">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ServicioWS">
+    <port name="ServicioWSPort" binding="tns:ServicioWSPortBinding">
+      <soap:address location="http://localhost:8080/LibroClubWS/ServicioWS" />
+    </port>
+  </service>
+</definitions>

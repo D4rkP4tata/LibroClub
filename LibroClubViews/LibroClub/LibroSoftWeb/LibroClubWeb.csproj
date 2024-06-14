@@ -1,0 +1,485 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35E8DF4E-9D1F-45C9-ACFC-B6619B6AC958}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LibroClubWeb</RootNamespace>
+    <AssemblyName>LibroClubWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44332</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.eliminarPersonalResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.eliminarUsuarioResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.gerenteDeLocal.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.insertarGerenteResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.insertarPersonalResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.insertarUsuarioResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.listarGerenteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.listarPersonalDni_SedeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.listarPersonalResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.listarPersonalSedeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.listarSedeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.listarUsuarioMembresiaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.listarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.modificarPersonalResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.modificarUsuarioResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.obtenerGerenteIDResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.ObtenerPersonalIDResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.personal.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.ObtenerPersonalDNIResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.ObtenerUsuarioDniResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.usuario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.buscarPorIDProductoResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.buscarPorIDVentaResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.eliminarVentaResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.existeEjemplarProductoSedeResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.insertarVentaResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.listarPorNombreProductoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.listarVentasResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.modificarVentaDiferenteProductoResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.modificarVentaIgualProductoResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.productoMultimedia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.venta.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.listarPorNombreUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.listarPorNombreYTipoProductoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\LibroClubWS\LibroClubWeb.LibroClubWS.listarVentasBusquedaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\LibroClubWS\ProductoWS.wsdl" />
+    <None Include="Connected Services\LibroClubWS\ProductoWS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\LibroClubWS\services.disco" />
+    <None Include="Connected Services\LibroClubWS\configuration91.svcinfo" />
+    <None Include="Connected Services\LibroClubWS\configuration.svcinfo" />
+    <None Include="Connected Services\LibroClubWS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Login.aspx" />
+    <Content Include="Public\css\bootstrap-grid.css" />
+    <Content Include="Public\css\bootstrap-grid.min.css" />
+    <Content Include="Public\css\bootstrap-grid.rtl.css" />
+    <Content Include="Public\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="Public\css\bootstrap-reboot.css" />
+    <Content Include="Public\css\bootstrap-reboot.min.css" />
+    <Content Include="Public\css\bootstrap-reboot.rtl.css" />
+    <Content Include="Public\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Public\css\bootstrap-utilities.css" />
+    <Content Include="Public\css\bootstrap-utilities.min.css" />
+    <Content Include="Public\css\bootstrap-utilities.rtl.css" />
+    <Content Include="Public\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Public\css\bootstrap.css" />
+    <Content Include="Public\css\bootstrap.min.css" />
+    <Content Include="Public\css\bootstrap.rtl.css" />
+    <Content Include="Public\css\bootstrap.rtl.min.css" />
+    <Content Include="Public\css\site.css" />
+    <Content Include="Public\fonts\css\all.css" />
+    <Content Include="Public\fonts\css\all.min.css" />
+    <Content Include="Public\fonts\css\brands.css" />
+    <Content Include="Public\fonts\css\brands.min.css" />
+    <Content Include="Public\fonts\css\fontawesome.css" />
+    <Content Include="Public\fonts\css\fontawesome.min.css" />
+    <Content Include="Public\fonts\css\regular.css" />
+    <Content Include="Public\fonts\css\regular.min.css" />
+    <Content Include="Public\fonts\css\solid.css" />
+    <Content Include="Public\fonts\css\solid.min.css" />
+    <Content Include="Public\fonts\css\svg-with-js.css" />
+    <Content Include="Public\fonts\css\svg-with-js.min.css" />
+    <Content Include="Public\fonts\css\v4-font-face.css" />
+    <Content Include="Public\fonts\css\v4-font-face.min.css" />
+    <Content Include="Public\fonts\css\v4-shims.css" />
+    <Content Include="Public\fonts\css\v4-shims.min.css" />
+    <Content Include="Public\fonts\css\v5-font-face.css" />
+    <Content Include="Public\fonts\css\v5-font-face.min.css" />
+    <Content Include="Home.aspx" />
+    <Content Include="Public\images\Biblioteca.jpg" />
+    <Content Include="Public\images\biblioteca2.jpg" />
+    <Content Include="Public\images\LibroClub_logo.jpg" />
+    <Content Include="Public\images\LibroClub_logo.png" />
+    <Content Include="Public\images\logoBiblio.jpg" />
+    <Content Include="Public\images\logoBiblio2.png" />
+    <Content Include="Public\images\logoBiblio3.png" />
+    <Content Include="Public\images\logoBiblio4.jpg" />
+    <Content Include="Public\images\logoBiblio4_transparente.png" />
+    <Content Include="Public\images\pucp.jpg" />
+    <Content Include="Public\images\pucp.png" />
+    <Content Include="Public\js\bootstrap.bundle.js" />
+    <Content Include="Public\js\bootstrap.bundle.min.js" />
+    <Content Include="Public\js\bootstrap.esm.js" />
+    <Content Include="Public\js\bootstrap.esm.min.js" />
+    <Content Include="Public\js\bootstrap.js" />
+    <Content Include="Public\js\bootstrap.min.js" />
+    <Content Include="Public\fonts\webfonts\fa-brands-400.ttf" />
+    <Content Include="Public\fonts\webfonts\fa-brands-400.woff2" />
+    <Content Include="Public\fonts\webfonts\fa-regular-400.ttf" />
+    <Content Include="Public\fonts\webfonts\fa-regular-400.woff2" />
+    <Content Include="Public\fonts\webfonts\fa-solid-900.ttf" />
+    <Content Include="Public\fonts\webfonts\fa-solid-900.woff2" />
+    <Content Include="Public\fonts\webfonts\fa-v4compatibility.ttf" />
+    <Content Include="Public\fonts\webfonts\fa-v4compatibility.woff2" />
+    <None Include="Connected Services\LibroClubWS\ServicioWS.wsdl" />
+    <None Include="Connected Services\LibroClubWS\ServicioWS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\LibroClubWS\UsuarioWS.wsdl" />
+    <None Include="Connected Services\LibroClubWS\UsuarioWS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\LibroClubWS\VentaWS.wsdl" />
+    <None Include="Connected Services\LibroClubWS\VentaWS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Public\js\jquery-3.7.1.intellisense.js" />
+    <Content Include="Public\js\jquery-3.7.1.js" />
+    <Content Include="Public\js\jquery-3.7.1.min.js" />
+    <Content Include="Public\js\jquery-3.7.1.slim.js" />
+    <Content Include="Public\js\jquery-3.7.1.slim.min.js" />
+    <Content Include="Scripts\Master.js" />
+    <Content Include="Scripts\Usuarios.js" />
+    <Content Include="Scripts\Sedes.js" />
+    <Content Include="Scripts\Ventas.js" />
+    <Content Include="Signin.aspx" />
+    <Content Include="Views\Articulos.aspx" />
+    <Content Include="Views\Chart.aspx" />
+    <Content Include="Views\Perfil.aspx" />
+    <Content Include="Views\Personal.aspx" />
+    <Content Include="Views\PersonalForm.aspx" />
+    <Content Include="Views\Sedes.aspx" />
+    <Content Include="Views\Usuarios.aspx" />
+    <Content Include="Views\UsuariosForm.aspx" />
+    <Content Include="Views\RevistaForm.aspx" />
+    <Content Include="Views\Ventas.aspx" />
+    <Content Include="Views\VentasForm.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\LibroClubWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Signin.aspx.cs">
+      <DependentUpon>Signin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signin.aspx.designer.cs">
+      <DependentUpon>Signin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Articulos.aspx.cs">
+      <DependentUpon>Articulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Articulos.aspx.designer.cs">
+      <DependentUpon>Articulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Chart.aspx.cs">
+      <DependentUpon>Chart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Chart.aspx.designer.cs">
+      <DependentUpon>Chart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Perfil.aspx.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Perfil.aspx.designer.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Personal.aspx.cs">
+      <DependentUpon>Personal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Personal.aspx.designer.cs">
+      <DependentUpon>Personal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PersonalForm.aspx.cs">
+      <DependentUpon>PersonalForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PersonalForm.aspx.designer.cs">
+      <DependentUpon>PersonalForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Sedes.aspx.cs">
+      <DependentUpon>Sedes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Sedes.aspx.designer.cs">
+      <DependentUpon>Sedes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UsuariosForm.aspx.cs">
+      <DependentUpon>UsuariosForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\UsuariosForm.aspx.designer.cs">
+      <DependentUpon>UsuariosForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RevistaForm.aspx.cs">
+      <DependentUpon>RevistaForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\RevistaForm.aspx.designer.cs">
+      <DependentUpon>RevistaForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ventas.aspx.cs">
+      <DependentUpon>Ventas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Ventas.aspx.designer.cs">
+      <DependentUpon>Ventas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\VentasForm.aspx.cs">
+      <DependentUpon>VentasForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\VentasForm.aspx.designer.cs">
+      <DependentUpon>VentasForm.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Public\css\bootstrap.rtl.min.css.map" />
+    <Content Include="Public\css\bootstrap.rtl.css.map" />
+    <Content Include="Public\css\bootstrap.min.css.map" />
+    <Content Include="Public\css\bootstrap.css.map" />
+    <Content Include="Public\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Public\css\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Public\css\bootstrap-utilities.min.css.map" />
+    <Content Include="Public\css\bootstrap-utilities.css.map" />
+    <Content Include="Public\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Public\css\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Public\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Public\css\bootstrap-reboot.css.map" />
+    <Content Include="Public\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Public\css\bootstrap-grid.rtl.css.map" />
+    <Content Include="Public\css\bootstrap-grid.min.css.map" />
+    <Content Include="Public\css\bootstrap-grid.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Main.Master" />
+    <Content Include="Public\js\bootstrap.min.js.map" />
+    <Content Include="Public\js\bootstrap.js.map" />
+    <Content Include="Public\js\bootstrap.esm.min.js.map" />
+    <Content Include="Public\js\bootstrap.esm.js.map" />
+    <Content Include="Public\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Public\js\bootstrap.bundle.js.map" />
+    <Content Include="Public\js\jquery-3.7.1.slim.min.map" />
+    <Content Include="Public\js\jquery-3.7.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibroClubController\LibroClubController.csproj">
+      <Project>{ee3dc70f-e1b9-4ccd-bae4-6307af724708}</Project>
+      <Name>LibroClubController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibroClubModels\LibroClubModels.csproj">
+      <Project>{7dcd684f-3760-4241-9a79-039be05e553f}</Project>
+      <Name>LibroClubModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\LibroClubWS\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50514</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44332/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

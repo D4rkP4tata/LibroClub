@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.LibroClubSoft.pucp.edu.pe/" targetNamespace="http://services.LibroClubSoft.pucp.edu.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="buscarPorIDProducto" type="tns:buscarPorIDProducto" />
+  <xs:element name="buscarPorIDProductoResponse" type="tns:buscarPorIDProductoResponse" />
+  <xs:element name="existeEjemplarProductoSede" type="tns:existeEjemplarProductoSede" />
+  <xs:element name="existeEjemplarProductoSedeResponse" type="tns:existeEjemplarProductoSedeResponse" />
+  <xs:element name="listarPorNombreProducto" type="tns:listarPorNombreProducto" />
+  <xs:element name="listarPorNombreProductoResponse" type="tns:listarPorNombreProductoResponse" />
+  <xs:element name="listarPorNombreYTipoProducto" type="tns:listarPorNombreYTipoProducto" />
+  <xs:element name="listarPorNombreYTipoProductoResponse" type="tns:listarPorNombreYTipoProductoResponse" />
+  <xs:complexType name="listarPorNombreYTipoProducto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+      <xs:element minOccurs="0" name="arg1" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarPorNombreYTipoProductoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:productoMultimedia" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="productoMultimedia">
+    <xs:sequence>
+      <xs:element name="activo" type="xs:boolean" />
+      <xs:element minOccurs="0" name="clasificador" type="xs:string" />
+      <xs:element name="id_producto" type="xs:int" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+      <xs:element name="precio" type="xs:double" />
+      <xs:element name="stock_prestamo" type="xs:int" />
+      <xs:element name="stock_prestamo_disponible" type="xs:int" />
+      <xs:element name="stock_venta" type="xs:int" />
+      <xs:element minOccurs="0" name="tipoProducto" type="tns:tipoProducto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarPorNombreProducto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarPorNombreProductoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:productoMultimedia" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="buscarPorIDProducto">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="buscarPorIDProductoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:productoMultimedia" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="existeEjemplarProductoSede">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+      <xs:element name="arg1" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="existeEjemplarProductoSedeResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="tipoProducto">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Libro" />
+      <xs:enumeration value="Pelicula" />
+      <xs:enumeration value="Revista" />
+      <xs:enumeration value="CDMusica" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

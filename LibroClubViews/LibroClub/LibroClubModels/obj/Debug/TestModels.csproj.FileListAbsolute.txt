@@ -1,0 +1,12 @@
+G:\Mi unidad\PUCP\Programacion3\Ejemplos\semana 6\TestForms\TestModels\bin\Debug\TestModels.dll
+G:\Mi unidad\PUCP\Programacion3\Ejemplos\semana 6\TestForms\TestModels\bin\Debug\TestModels.pdb
+G:\Mi unidad\PUCP\Programacion3\Ejemplos\semana 6\TestForms\TestModels\obj\Debug\TestModels.csproj.AssemblyReference.cache
+G:\Mi unidad\PUCP\Programacion3\Ejemplos\semana 6\TestForms\TestModels\obj\Debug\TestModels.csproj.CoreCompileInputs.cache
+G:\Mi unidad\PUCP\Programacion3\Ejemplos\semana 6\TestForms\TestModels\obj\Debug\TestModels.dll
+G:\Mi unidad\PUCP\Programacion3\Ejemplos\semana 6\TestForms\TestModels\obj\Debug\TestModels.pdb
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms\TestModels\bin\Debug\TestModels.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms\TestModels\bin\Debug\TestModels.pdb
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms\TestModels\obj\Debug\TestModels.csproj.AssemblyReference.cache
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms\TestModels\obj\Debug\TestModels.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms\TestModels\obj\Debug\TestModels.dll
+C:\Users\Bruno Monzén Sullón\Desktop\Ejemplo WebForm\TestForms\TestModels\obj\Debug\TestModels.pdb

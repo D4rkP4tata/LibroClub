@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://services.LibroClubSoft.pucp.edu.pe/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="VentaWS" targetNamespace="http://services.LibroClubSoft.pucp.edu.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/LibroClubWS/VentaWS?xsd=1" namespace="http://services.LibroClubSoft.pucp.edu.pe/" />
+    </xsd:schema>
+  </types>
+  <message name="listarVentasBusqueda">
+    <part name="parameters" element="tns:listarVentasBusqueda" />
+  </message>
+  <message name="listarVentasBusquedaResponse">
+    <part name="parameters" element="tns:listarVentasBusquedaResponse" />
+  </message>
+  <message name="modificarVentaIgualProducto">
+    <part name="parameters" element="tns:modificarVentaIgualProducto" />
+  </message>
+  <message name="modificarVentaIgualProductoResponse">
+    <part name="parameters" element="tns:modificarVentaIgualProductoResponse" />
+  </message>
+  <message name="modificarVentaDiferenteProducto">
+    <part name="parameters" element="tns:modificarVentaDiferenteProducto" />
+  </message>
+  <message name="modificarVentaDiferenteProductoResponse">
+    <part name="parameters" element="tns:modificarVentaDiferenteProductoResponse" />
+  </message>
+  <message name="insertarVenta">
+    <part name="parameters" element="tns:insertarVenta" />
+  </message>
+  <message name="insertarVentaResponse">
+    <part name="parameters" element="tns:insertarVentaResponse" />
+  </message>
+  <message name="eliminarVenta">
+    <part name="parameters" element="tns:eliminarVenta" />
+  </message>
+  <message name="eliminarVentaResponse">
+    <part name="parameters" element="tns:eliminarVentaResponse" />
+  </message>
+  <message name="buscarPorIDVenta">
+    <part name="parameters" element="tns:buscarPorIDVenta" />
+  </message>
+  <message name="buscarPorIDVentaResponse">
+    <part name="parameters" element="tns:buscarPorIDVentaResponse" />
+  </message>
+  <message name="listarVentas">
+    <part name="parameters" element="tns:listarVentas" />
+  </message>
+  <message name="listarVentasResponse">
+    <part name="parameters" element="tns:listarVentasResponse" />
+  </message>
+  <portType name="VentaWS">
+    <operation name="listarVentasBusqueda">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/listarVentasBusquedaRequest" message="tns:listarVentasBusqueda" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/listarVentasBusquedaResponse" message="tns:listarVentasBusquedaResponse" />
+    </operation>
+    <operation name="modificarVentaIgualProducto">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/modificarVentaIgualProductoRequest" message="tns:modificarVentaIgualProducto" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/modificarVentaIgualProductoResponse" message="tns:modificarVentaIgualProductoResponse" />
+    </operation>
+    <operation name="modificarVentaDiferenteProducto">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/modificarVentaDiferenteProductoRequest" message="tns:modificarVentaDiferenteProducto" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/modificarVentaDiferenteProductoResponse" message="tns:modificarVentaDiferenteProductoResponse" />
+    </operation>
+    <operation name="insertarVenta">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/insertarVentaRequest" message="tns:insertarVenta" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/insertarVentaResponse" message="tns:insertarVentaResponse" />
+    </operation>
+    <operation name="eliminarVenta">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/eliminarVentaRequest" message="tns:eliminarVenta" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/eliminarVentaResponse" message="tns:eliminarVentaResponse" />
+    </operation>
+    <operation name="buscarPorIDVenta">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/buscarPorIDVentaRequest" message="tns:buscarPorIDVenta" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/buscarPorIDVentaResponse" message="tns:buscarPorIDVentaResponse" />
+    </operation>
+    <operation name="listarVentas">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/listarVentasRequest" message="tns:listarVentas" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/VentaWS/listarVentasResponse" message="tns:listarVentasResponse" />
+    </operation>
+  </portType>
+  <binding name="VentaWSPortBinding" type="tns:VentaWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="listarVentasBusqueda">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="modificarVentaIgualProducto">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="modificarVentaDiferenteProducto">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarVenta">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="eliminarVenta">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="buscarPorIDVenta">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarVentas">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="VentaWS">
+    <port name="VentaWSPort" binding="tns:VentaWSPortBinding">
+      <soap:address location="http://localhost:8080/LibroClubWS/VentaWS" />
+    </port>
+  </service>
+</definitions>

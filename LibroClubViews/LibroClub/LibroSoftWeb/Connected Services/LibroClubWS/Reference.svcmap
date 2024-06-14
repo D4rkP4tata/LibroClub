@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="27538148-719e-40cf-aa10-0ef5c6043770" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/LibroClubWS/services.disco" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UsuarioWS.wsdl" MetadataType="Wsdl" ID="df50f1c8-a0a4-4abb-ac23-6c0e1aea12d0" SourceId="1" SourceUrl="http://localhost:8080/LibroClubWS/UsuarioWS?WSDL" />
+    <MetadataFile FileName="ProductoWS.wsdl" MetadataType="Wsdl" ID="e91bfa4d-08cf-4c90-b840-63db538a5564" SourceId="1" SourceUrl="http://localhost:8080/LibroClubWS/ProductoWS?WSDL" />
+    <MetadataFile FileName="UsuarioWS.xsd" MetadataType="Schema" ID="28aee0f2-5b67-4ea5-8e00-5635978234c3" SourceId="1" SourceUrl="http://localhost:8080/LibroClubWS/UsuarioWS?xsd=1" />
+    <MetadataFile FileName="VentaWS.xsd" MetadataType="Schema" ID="085b38d9-34e6-4f23-9b0a-6779a855b78d" SourceId="1" SourceUrl="http://localhost:8080/LibroClubWS/VentaWS?xsd=1" />
+    <MetadataFile FileName="ProductoWS.xsd" MetadataType="Schema" ID="a554c243-52a9-49f3-8166-803358788d7e" SourceId="1" SourceUrl="http://localhost:8080/LibroClubWS/ProductoWS?xsd=1" />
+    <MetadataFile FileName="VentaWS.wsdl" MetadataType="Wsdl" ID="1f18c550-d667-48f9-84ff-08fec2f7db10" SourceId="1" SourceUrl="http://localhost:8080/LibroClubWS/VentaWS?WSDL" />
+    <MetadataFile FileName="services.disco" MetadataType="Disco" ID="b2411eeb-cb96-4470-9f57-63f93d90108f" SourceId="1" SourceUrl="http://localhost:8080/LibroClubWS/services.disco" />
+    <MetadataFile FileName="ServicioWS.wsdl" MetadataType="Wsdl" ID="ab7fa3af-a33f-402f-b643-b1042ed292bd" SourceId="1" SourceUrl="http://localhost:8080/LibroClubWS/ServicioWS?WSDL" />
+    <MetadataFile FileName="ServicioWS.xsd" MetadataType="Schema" ID="b1027e77-90c0-4c2d-8496-5fe74b2893ba" SourceId="1" SourceUrl="http://localhost:8080/LibroClubWS/ServicioWS?xsd=1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

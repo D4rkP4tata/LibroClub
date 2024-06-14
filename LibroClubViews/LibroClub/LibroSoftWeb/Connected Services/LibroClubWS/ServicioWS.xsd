@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.LibroClubSoft.pucp.edu.pe/" targetNamespace="http://services.LibroClubSoft.pucp.edu.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ObtenerPersonalDNI" type="tns:ObtenerPersonalDNI" />
+  <xs:element name="ObtenerPersonalDNIResponse" type="tns:ObtenerPersonalDNIResponse" />
+  <xs:element name="ObtenerPersonalID" type="tns:ObtenerPersonalID" />
+  <xs:element name="ObtenerPersonalIDResponse" type="tns:ObtenerPersonalIDResponse" />
+  <xs:element name="ObtenerUsuarioDni" type="tns:ObtenerUsuarioDni" />
+  <xs:element name="ObtenerUsuarioDniResponse" type="tns:ObtenerUsuarioDniResponse" />
+  <xs:element name="eliminarPersonal" type="tns:eliminarPersonal" />
+  <xs:element name="eliminarPersonalResponse" type="tns:eliminarPersonalResponse" />
+  <xs:element name="eliminarUsuario" type="tns:eliminarUsuario" />
+  <xs:element name="eliminarUsuarioResponse" type="tns:eliminarUsuarioResponse" />
+  <xs:element name="insertarGerente" type="tns:insertarGerente" />
+  <xs:element name="insertarGerenteResponse" type="tns:insertarGerenteResponse" />
+  <xs:element name="insertarPersonal" type="tns:insertarPersonal" />
+  <xs:element name="insertarPersonalResponse" type="tns:insertarPersonalResponse" />
+  <xs:element name="insertarUsuario" type="tns:insertarUsuario" />
+  <xs:element name="insertarUsuarioResponse" type="tns:insertarUsuarioResponse" />
+  <xs:element name="listarGerente" type="tns:listarGerente" />
+  <xs:element name="listarGerenteResponse" type="tns:listarGerenteResponse" />
+  <xs:element name="listarPersonal" type="tns:listarPersonal" />
+  <xs:element name="listarPersonalDni_Sede" type="tns:listarPersonalDni_Sede" />
+  <xs:element name="listarPersonalDni_SedeResponse" type="tns:listarPersonalDni_SedeResponse" />
+  <xs:element name="listarPersonalResponse" type="tns:listarPersonalResponse" />
+  <xs:element name="listarPersonalSede" type="tns:listarPersonalSede" />
+  <xs:element name="listarPersonalSedeResponse" type="tns:listarPersonalSedeResponse" />
+  <xs:element name="listarSede" type="tns:listarSede" />
+  <xs:element name="listarSedeResponse" type="tns:listarSedeResponse" />
+  <xs:element name="listarUsuario" type="tns:listarUsuario" />
+  <xs:element name="listarUsuarioMembresia" type="tns:listarUsuarioMembresia" />
+  <xs:element name="listarUsuarioMembresiaResponse" type="tns:listarUsuarioMembresiaResponse" />
+  <xs:element name="listarUsuarioResponse" type="tns:listarUsuarioResponse" />
+  <xs:element name="modificarPersonal" type="tns:modificarPersonal" />
+  <xs:element name="modificarPersonalResponse" type="tns:modificarPersonalResponse" />
+  <xs:element name="modificarUsuario" type="tns:modificarUsuario" />
+  <xs:element name="modificarUsuarioResponse" type="tns:modificarUsuarioResponse" />
+  <xs:element name="obtenerGerenteID" type="tns:obtenerGerenteID" />
+  <xs:element name="obtenerGerenteIDResponse" type="tns:obtenerGerenteIDResponse" />
+  <xs:complexType name="listarUsuarioMembresia">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarUsuarioMembresiaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:anyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarUsuario">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarUsuarioResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarPersonalSede">
+    <xs:sequence>
+      <xs:element name="sede" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarPersonalSedeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:anyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerGerenteID">
+    <xs:sequence>
+      <xs:element name="fid_gerente" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerGerenteIDResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:gerenteDeLocal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="gerenteDeLocal">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:empleado">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="fecha_inicio_cargo" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="empleado" abstract="true">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:persona">
+        <xs:sequence>
+          <xs:element name="activo" type="xs:boolean" />
+          <xs:element minOccurs="0" name="estado" type="tns:estadoEmpleado" />
+          <xs:element minOccurs="0" name="fin_contrato" type="xs:dateTime" />
+          <xs:element name="idSede" type="xs:int" />
+          <xs:element minOccurs="0" name="inicio_contrato" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="nombreSede" type="xs:string" />
+          <xs:element minOccurs="0" name="password" type="xs:string" />
+          <xs:element minOccurs="0" name="sede" type="tns:sede" />
+          <xs:element minOccurs="0" name="username" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="persona" abstract="true">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dni" type="xs:string" />
+      <xs:element minOccurs="0" name="fecha_nacimiento" type="xs:dateTime" />
+      <xs:element name="id_persona" type="xs:int" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+      <xs:element name="sexo" type="xs:unsignedShort" />
+      <xs:element name="telefono" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sede">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="direccion" type="xs:string" />
+      <xs:element name="id_sede" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarPersonalDni_Sede">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dni" type="xs:string" />
+      <xs:element name="id_sede" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarPersonalDni_SedeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:anyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarUsuario">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarUsuarioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:anyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarUsuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="obj" type="tns:usuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="usuario">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:persona">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="fecha_afiliacion" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="membresia" type="tns:tipoMembresia" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="insertarUsuarioResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarPersonal">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarPersonalResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:anyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerPersonalDNI">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dni" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerPersonalDNIResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:personal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="personal">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:empleado">
+        <xs:sequence>
+          <xs:element name="cant_ejemplares_prestados" type="xs:int" />
+          <xs:element name="cant_ejemplares_vendidos" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="modificarPersonal">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="personal" type="tns:personal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarPersonalResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarGerente">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="obj" type="tns:gerenteDeLocal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarGerenteResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarUsuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="obj" type="tns:usuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarUsuarioResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarSede">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarSedeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:anyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarGerente">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarGerenteResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:anyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerUsuarioDni">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dni" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerUsuarioDniResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:usuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarPersonal">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="obj" type="tns:personal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarPersonalResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerPersonalID">
+    <xs:sequence>
+      <xs:element name="fid_personal" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerPersonalIDResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:personal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarPersonal">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarPersonalResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="estadoEmpleado">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Activo" />
+      <xs:enumeration value="Vacaciones" />
+      <xs:enumeration value="DescansoMedico" />
+      <xs:enumeration value="LicenciaMaternidadPaternidad" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoMembresia">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ninguna" />
+      <xs:enumeration value="Plata" />
+      <xs:enumeration value="Oro" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

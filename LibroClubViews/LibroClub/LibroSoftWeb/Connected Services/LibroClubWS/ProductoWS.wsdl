@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://services.LibroClubSoft.pucp.edu.pe/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="ProductoWS" targetNamespace="http://services.LibroClubSoft.pucp.edu.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/LibroClubWS/ProductoWS?xsd=1" namespace="http://services.LibroClubSoft.pucp.edu.pe/" />
+    </xsd:schema>
+  </types>
+  <message name="listarPorNombreProducto">
+    <part name="parameters" element="tns:listarPorNombreProducto" />
+  </message>
+  <message name="listarPorNombreProductoResponse">
+    <part name="parameters" element="tns:listarPorNombreProductoResponse" />
+  </message>
+  <message name="existeEjemplarProductoSede">
+    <part name="parameters" element="tns:existeEjemplarProductoSede" />
+  </message>
+  <message name="existeEjemplarProductoSedeResponse">
+    <part name="parameters" element="tns:existeEjemplarProductoSedeResponse" />
+  </message>
+  <message name="buscarPorIDProducto">
+    <part name="parameters" element="tns:buscarPorIDProducto" />
+  </message>
+  <message name="buscarPorIDProductoResponse">
+    <part name="parameters" element="tns:buscarPorIDProductoResponse" />
+  </message>
+  <message name="listarPorNombreYTipoProducto">
+    <part name="parameters" element="tns:listarPorNombreYTipoProducto" />
+  </message>
+  <message name="listarPorNombreYTipoProductoResponse">
+    <part name="parameters" element="tns:listarPorNombreYTipoProductoResponse" />
+  </message>
+  <portType name="ProductoWS">
+    <operation name="listarPorNombreProducto">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ProductoWS/listarPorNombreProductoRequest" message="tns:listarPorNombreProducto" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ProductoWS/listarPorNombreProductoResponse" message="tns:listarPorNombreProductoResponse" />
+    </operation>
+    <operation name="existeEjemplarProductoSede">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ProductoWS/existeEjemplarProductoSedeRequest" message="tns:existeEjemplarProductoSede" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ProductoWS/existeEjemplarProductoSedeResponse" message="tns:existeEjemplarProductoSedeResponse" />
+    </operation>
+    <operation name="buscarPorIDProducto">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ProductoWS/buscarPorIDProductoRequest" message="tns:buscarPorIDProducto" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ProductoWS/buscarPorIDProductoResponse" message="tns:buscarPorIDProductoResponse" />
+    </operation>
+    <operation name="listarPorNombreYTipoProducto">
+      <input wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ProductoWS/listarPorNombreYTipoProductoRequest" message="tns:listarPorNombreYTipoProducto" />
+      <output wsam:Action="http://services.LibroClubSoft.pucp.edu.pe/ProductoWS/listarPorNombreYTipoProductoResponse" message="tns:listarPorNombreYTipoProductoResponse" />
+    </operation>
+  </portType>
+  <binding name="ProductoWSPortBinding" type="tns:ProductoWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="listarPorNombreProducto">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="existeEjemplarProductoSede">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="buscarPorIDProducto">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarPorNombreYTipoProducto">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ProductoWS">
+    <port name="ProductoWSPort" binding="tns:ProductoWSPortBinding">
+      <soap:address location="http://localhost:8080/LibroClubWS/ProductoWS" />
+    </port>
+  </service>
+</definitions>
