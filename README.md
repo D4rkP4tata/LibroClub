@@ -38,7 +38,7 @@ Este es un proyecto de ejemplo para la gestión de productos multimedia creada p
 
 ##Configuración Frontend
 
-9. En la parte LibroClubViews. Abrir el .sln en Visual Studia
+9. En la parte LibroClubViews. Abrir el .sln en Visual Studio
 
 11. Ejecutar proyecto
 
